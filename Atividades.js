@@ -130,11 +130,15 @@ botao9.onclick = () => {
         
     } else if ((temMinuscula || temMaiuscula) && !(temNumero || temEspecial)) {
         resposta = 'Fraca';
+        resultado.style.color = "red";
     } else if (temMinuscula && temMaiuscula && temNumero && !temEspecial) {
         resposta = 'Moderada';
+        resultado.style.color = "orange";
     } else if (temMinuscula && temMaiuscula && temNumero && temEspecial) {
+        resultado.style.color = "green";
         resposta = 'Forte';
-    } else {    
+    } else {
+        resultado.style.color = "red";    
         resposta = 'Fraca';
     }
 
