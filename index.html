@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="resultado">
+      <h1>Resultado: </h1>
+      <div id="resultado" />
+    </section>
+
+    <section class="exercicio">
+      <div class="Atividade1">
+        
+          <h1>Digite um texto abaixo: </h1>
+          <textarea name="Texto" id="texto"></textarea>
+        
+        <div>
+          <div class="botoes">
+            <button id="botao1">Inverter</button>
+            <button id="botao2">Negrito</button>
+            <button id="botao3">Contagem</button>
+            <button id="botao4">Encontrar</button>
+            <button id="botao9">Senha</button>
+            <button id="botao10">Codificar</button>
+          </div>
+          <div class="procurar">
+            <label for="procurar">Procurar: </label>
+            <input type="text" id="procurar" placeholder="Digite o termo a ser procurado">
+            <label for="substituir">Substituir por: </label>
+            <input type="text" id="substituir" placeholder="Digite o termo substituto">
+            <button id="botao5">Substituir</button>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="Atividade2">
+        <h1>Calculadora de Dias de Vida</h1>
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento">
+        <button id="botao6">Calcular Dias de Vida</button>
+        <br>
+        <h1>Converter Data para Extenso</h1>
+        <label for="data">Data (dd/mm/aaaa):</label>
+        <input type="text" id="data" placeholder="">
+        <button id="botao7">Converter</button>
+        <br>
+        <h1>Calculadora de Distância Entre Datas</h1>
+        <label for="data1">Data 1 (dd/mm/aaaa):</label>
+        <input type="text" id="data1" placeholder="Digite a primeira data">
+        <label for="data2">Data 2 (dd/mm/aaaa):</label>
+        <input type="text" id="data2" placeholder="Digite a segunda data">
+        <button id="botao8">Calcular Distância</button>
+      </div>
+
+    </section>
+  
+  
+
+  
+  <script src="Atividades.js"></script>
+  </body>
+</html>
